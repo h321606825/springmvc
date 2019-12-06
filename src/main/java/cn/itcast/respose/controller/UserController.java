@@ -65,4 +65,13 @@ public class UserController {
         mv.setViewName("success");//跳到视图解析器下的success.jsp 文件
         return mv;
     }
+
+    @RequestMapping("/testForward")
+    public String testForward(){
+        System.out.println("testForward 执行了...");
+        //请求转发
+//        return "forward:/WEB-INF/pages/success.jsp";
+        //重定向
+        return "redirect:/index.jsp";
+    }
 }

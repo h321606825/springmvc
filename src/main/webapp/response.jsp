@@ -14,5 +14,6 @@
 <a href="user/testString">testString 返回</a><br/>
 <a href="user/testVoid">testVoid 返回</a><br/>
 <a href="user/testModelAndView">ModelAndView测试</a><br/>
+<a href="user/testForward">testForward测试</a><br/>
 </body>
 </html>
